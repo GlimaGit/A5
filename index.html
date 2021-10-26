@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>INFO COVID-19</title>
+  </head>
+  <body>
+    <header class="header">
+      <h2>Dados Corona Vírus - CEP</h2>
+    </header>
+
+    <div class="container">
+      <form class="my-form">
+        <label id="label" for="cep">Informe o CEP: </label>
+        <input id="input-cpf" type="text" data-js="cep" />
+        <button class="button" id="button">Pesquisar</button>
+      </form>
+
+      <div class="output">
+        <p>Estado: <span id="estado"></span></p>
+        <p>Nº Casos: <span id="casos"></span></p>
+        <p>Nº Óbitos: <span id="obitos"></span></p>
+        <p>Nº Curados: <span id="curados"></span></p>
+      </div>
+    </div>
+
+    <footer class="footer">
+        <p>Gabriel Lima</p>
+        <p>DW2A4</p>
+    </footer>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
